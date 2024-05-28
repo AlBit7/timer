@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#countDown {
+    text-align: center;
+    position: fixed;
+    color: white;
+    line-height: 1; /* Imposta l'altezza della riga su 1 per assicurarti che il testo rimanga su una sola riga */
+    overflow: hidden; /* Nasconde eventuali overflow */
+    font-size: inherit;
+}
+
+#orologio {
+    padding: 10px;
+    height: 100px;
+    width: 350px;
+    border-radius: 25px;
+    
+    background-color: blue;
+}
+
+.testo {
+    margin: 10%;
+    font-size: 4ch;
+}
+
+p {
+    text-align: justify;
+}
+
+.timer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 100px;
+
+    top: 70px;
+    right: 10%;
+}
+
+.immagine {
+    position: fixed;
+}
